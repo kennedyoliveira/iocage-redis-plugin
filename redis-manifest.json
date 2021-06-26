@@ -1,13 +1,13 @@
 {
     "name": "Redis",
     "release": "12.2-RELEASE",
+    "artifact": "https://github.com/kennedyoliveira/iocage-redis-plugin",
     "properties": {
         "dhcp": 1,
         "boot": "on"
     },
     "pkgs": [
         "gmake",
-        "c11",
         "gcc11-devel"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",

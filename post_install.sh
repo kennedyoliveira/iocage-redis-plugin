@@ -7,6 +7,7 @@ pw adduser redis
 
 echo "creating the folder structure"
 mkdir -p /usr/local/redis
+mkdir -p /usr/local/redis/data
 
 echo "downloading redis version $VERSION"
 cd /tmp/

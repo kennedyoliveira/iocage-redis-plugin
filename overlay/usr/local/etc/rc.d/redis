@@ -14,7 +14,7 @@ load_rc_config $name
 : ${redis_user:=redis}
 : ${redis_enable:=no}
 
-command=/usr/local/bin/redis-server
+command=/usr/local/redis/redis-server
 pidfile=/usr/local/redis/redis.pid
 redis_flags="/usr/local/redis/redis.conf"
 

@@ -33,4 +33,4 @@ sysrc redis_user=redis
 echo "starting the service"
 service start
 
-cat /PLUGIN_INFO
+#cat /PLUGIN_INFO

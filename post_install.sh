@@ -3,7 +3,7 @@
 VERSION=6.2.4
 
 echo "creating users"
-pw adduser redis
+pw adduser redis -s /sbin/nologin -c "Redis daemon user" -d /nonexistent
 
 echo "creating the folder structure"
 mkdir -p /usr/local/redis

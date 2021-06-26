@@ -5,7 +5,7 @@ Plugin for easily running an instance of Redis in TrueNAS
 
 ```
 fetch https://raw.githubusercontent.com/kennedyoliveira/iocage-redis-plugin/master/redis-manifest.json
-iocage fetch --plugins redis-manifest ip4_addr="interface|IPaddress"
+sudo iocage fetch --plugin-name redis-manifest.json --name redis ip4_addr="interface|IPaddress"
 ```
 
 ## Defaults

@@ -1,1 +1,11 @@
-TODO: Add plugin information here
+Redis is using mostly the default configs, except that it has
+PROTECTED_MODE disabled, which means it's accessible by outside machines,
+be warned that by default it has no password so if the jail is exposed to the internet
+anyway will be able to access, same for the network.
+
+Check the configuration file for more information:
+
+https://raw.githubusercontent.com/redis/redis/6.0/redis.conf
+
+Database is stored in: /usr/local/redis/data
+Configuration is in: /usr/local/redis/redis.conf

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION=6.2.4
+VERSION=6.2.6
 
 echo "creating users"
 pw adduser redis -s /sbin/nologin -c "Redis daemon user" -d /nonexistent
